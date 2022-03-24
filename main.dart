@@ -31,4 +31,7 @@ void main(List<String> args) {
 
   var voyager3 = Spacecraft.unlaunched('Voyager III');
   voyager3.describe();
+
+  var voyager4 = PilotedCraft('Voyager IV', DateTime(1980, 11, 10));
+  voyager4.describeCrew();
 }
